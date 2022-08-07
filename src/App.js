@@ -1,11 +1,12 @@
-import './App.css';
+import "./App.css";
+import UseRef from "./components/UseRef";
 
 function App() {
-  return (
-    <div className="App">
-      teste
-    </div>
-  );
+    return (
+        <div className="App">
+            <UseRef />
+        </div>
+    );
 }
 
 export default App;
